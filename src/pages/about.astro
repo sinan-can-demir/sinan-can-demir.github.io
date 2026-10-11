@@ -1,0 +1,41 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="About"
+  description="Sinan Can Demir — CS student at UT Dallas, open source developer, interested in software engineering and security."
+>
+  <article class="max-w-3xl mx-auto px-4 sm:px-6 py-16">
+    <header class="mb-12">
+      <h1 class="text-3xl font-bold text-zinc-900 dark:text-zinc-50 mb-4">About me</h1>
+    </header>
+
+    <div class="prose dark:prose-invert prose-zinc max-w-none prose-a:text-indigo-600 dark:prose-a:text-indigo-400">
+      <p>
+        Hi, I'm <strong>Sinan Can Demir</strong> — a computer science student at the University of Texas at Dallas.
+        I build open source software and write about the things I learn along the way: software engineering,
+        security, data systems, and personal growth.
+      </p>
+
+      <p>
+        I'm drawn to systems that are honest about their tradeoffs. Most of my work lives on
+        <a href="https://github.com/sinan-can-demir" target="_blank" rel="noopener noreferrer">GitHub</a>.
+      </p>
+
+      <h2>What I work with</h2>
+      <ul>
+        <li>Backend: Python, FastAPI, PostgreSQL</li>
+        <li>Data: dbt, DuckDB, Apache Kafka, Streamlit</li>
+        <li>ML: Prophet, scikit-learn</li>
+        <li>Infrastructure: Docker, GitHub Actions</li>
+      </ul>
+
+      <h2>Get in touch</h2>
+      <p>
+        Email me at <a href="mailto:fanflowphoto@gmail.com">fanflowphoto@gmail.com</a> or find me on
+        <a href="https://github.com/sinan-can-demir" target="_blank" rel="noopener noreferrer">GitHub</a>.
+      </p>
+    </div>
+  </article>
+</BaseLayout>
